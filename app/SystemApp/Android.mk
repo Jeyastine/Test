@@ -19,5 +19,5 @@ include $(call all-makefiles-under,$(LOCAL_PATH))
 # adb reboot   repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r41
 # adb -s emulator-5554 shell    openssl pkcs8 -inform DER -nocrypt -in \
                                   $ANDROID_ROOT/build/target/product/core.mk
-# echo export "PATH=~/Library/Android/sdk/platform-tools:$PATH" >> ~/.zshenv
+# echo export "PATH=~/Library/Android/sdk/platform-tools:$PATH" >> ~/.zshenv    adb push app-debug.apk /system/app/app-debug.apk
 # mDpm set-device-owner com.jeyastine.dpcadminaccess/.DeviceAdminRcvr   git config --global user.name "Jeyastine Pushparaj"    git config --global user.email "jeyastinepushparaj@gmail.com"

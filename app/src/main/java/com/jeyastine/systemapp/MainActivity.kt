@@ -18,3 +18,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+// git config --global user.name "Jeyastine"  git config --global user.email "jeyastinepushparaj@gmail.com"
+//  https://github.com/RamprasathPnr/DPC_AndroidApplication/blob/master/app/src/main/AndroidManifest.xml
+//  repo init -u https://github.com/Jeyastine/SystemApp.git -b android-12.0.0_r28   src/main/AndroidManifest.xml
